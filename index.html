@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Currículo Modelo</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#dados_contato">Contatos</a>
+        <a href="#formacoes">Formação</a>
+        <a href="#experiencias">Experiências</a>
+      </nav>
+    </header>
+    <main class="container">
+      <a href="#home"><i id="link-home" class="bx bx-up-arrow-circle"></i></a>
+      <section id="home">
+        <div>
+          <h1>Conrado Niemeyer</h1>
+          <h2>Pesquisador</h2>
+        </div>
+        <img
+          class="foto-perfil"
+          src="./assets/imagem-perfil.jpeg"
+          alt="foto-perfil"
+        />
+      </section>
+
+      <!--
+      - sobre
+      - Dados de contato (inserir APIs de email e wpp)
+      - formações e cursos (inserir  do lado fotos via API, museus, cachorros, comics)
+      - experiências
+    -->
+      <section id="sobre">
+        <div>
+          <h3 class="subtitulo-secao">Sobre</h3>
+          <p>
+            Eu sou o Concs, pesquisador, gosto de estudar sobre tecnologia e educação.
+          </p>
+          <p>E também estou me capacitando como desenvolvedor de software.</p>
+        </div>
+        <img src="./assets/imagem-sobre.jpg" alt="laptop-preto" />
+      </section>
+      <section id="dados_contato">
+        <h3 class="subtitulo-secao">Dados de contato</h3>
+        <ul>
+          <li>
+            <i class="bx bx-envelope"></i>
+            conrado.raizen@gmail.com
+          </li>
+          <li>
+            <i class="bx bx-phone"></i>
+            (48) 98811-0420
+          </li>
+          <li>
+            <i class="bx bxl-linkedin icone"></i>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/conrado-niemeyer-74b0926a/"
+              >Conrado Niemeyer</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div id="formacoes">
+          <h3 class="subtitulo-secao">Formações acadêmicas</h3>
+          <ol>
+            <span class="formacoes_titulo-lista">Graduação:</span>
+            <ul>
+              <li>Bacharelado em Física (IF/UFRJ) - Conclusão: Fev/2012</li>
+            </ul>
+            <span class="formacoes_titulo-lista"> Pós-Graduação:</span>
+            <ul>
+              <li>Mestrado em Física Médica (CNEN/IRD)- Conclusão: Nov/2015</li>
+              <li>
+                Mestrado em Informática e Saúde (CCS/UFSC)- Conclusão: Mai/2024
+              </li>
+            </ul>
+            <span class="formacoes_titulo-lista"
+              >Cursos e Especializações:</span
+            >
+            <ul>
+              <li>
+                SESI/SENAI Analista de Desenvolvimento Web - Conclusão
+                (previsão): Out/2024
+              </li>
+              <li>
+                LAB365 Desenvolvedor Back-End C# - Conclusão (previsão):
+                Out/2024
+              </li>
+              <li>
+                Hackers Do Bem Especialista em Cyber Segurança - Módulo 02 (em
+                andamento)
+              </li>
+              <li>
+                Idiomas: <br />Inglês fluente - Intermediário<br />Espanhol
+                básico - Iniciante
+              </li>
+            </ul>
+          </ol>
+          <div id="imageContainer"></div>
+        </div>
+      </section>
+      <section id="experiencias">
+        <div class="experiencias-container">
+          <div class="experiencias-conteudo">
+            <h3 class="subtitulo-secao">Experiências:</h3>
+            <ol>
+              <li>Supervisor de Radioproteção em Medicina Nuclear</li>
+              <li>
+                Professor de Física e Matemática na rede de Ensino Fundamental,
+                Médio, Pré-Vestibular e Técnico
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        Criado por Conrado < concs > Niemeyer - 2024
+        <nav>
+          <!-- <a href="https://instagram.com"
+            ><i class="bx bxl-instagram"></i>Instagram</a
+          > -->
+          <a href="https://github.com/concs-niemeyer"
+            ><i class="bx bxl-github"></i>Github</a
+          >
+          <a href="https://www.linkedin.com/in/conrado-niemeyer-74b0926a/"
+            ><i class="bx bxl-linkedin"></i> LinkedIn</a
+          >
+        </nav>
+      </footer>
+      <script src="script.js"></script>
+    </main>
+    <!--<script src="scrpit.js"></script>
+	-->
+  </body>
+</html>
