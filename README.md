@@ -20,4 +20,4 @@ Se você deseja examinar o código-fonte, sugerir melhorias ou relatar problemas
 
 ## Autor
 
-[Conrado Niemeyer](https://github.com/concs-niemeyerl) - Pesquisador
+[Conrado Niemeyer](https://github.com/concs-niemeyer) - Pesquisador
