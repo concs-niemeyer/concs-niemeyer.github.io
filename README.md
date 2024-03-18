@@ -12,7 +12,7 @@ Este repositório contém uma demonstração das habilidades que estou desenvolv
 
 ## Visualização
 
-Você pode visualizar meu currículo online [aqui](link_para_visualização), onde as tecnologias HTML, CSS e JavaScript são utilizadas para criar uma experiência interativa.
+Você pode visualizar meu currículo online [aqui](https://concs-niemeyer.github.io/), onde as tecnologias HTML, CSS e JavaScript são utilizadas para criar uma experiência interativa.
 
 ## Veja o Código-Fonte
 
